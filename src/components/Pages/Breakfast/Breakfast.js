@@ -1,9 +1,19 @@
 import React from 'react';
+import useMeals from '../../../hooks/useMeals';
+import MealCard from '../MealCard/MealCard';
 
 const Breakfast = () => {
+    const [meals, setMeals] = useMeals()
     return (
         <div>
-            <h2>Breakfast</h2>
+            <div className='row row-cols-1 row-cols-md-3 g-5'>
+                {
+                    meals.slice(0, 6).map(meal => <MealCard
+                        key={meal.id}
+                        meal={meal}
+                    ></MealCard>)
+                }
+            </div>
         </div>
     );
 };

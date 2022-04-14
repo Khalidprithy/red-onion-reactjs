@@ -10,7 +10,7 @@ import Dinner from './components/Pages/Dinner/Dinner';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <Header></Header>
       <MainPage></MainPage>
       <Routes>
