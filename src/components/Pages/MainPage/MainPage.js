@@ -20,7 +20,7 @@ const MainPage = () => {
             <div className='d-flex align-items-center justify-content-center'>
                 <Link className='menu-links' to="/breakfast">Breakfast</Link>
                 <Link className='menu-links' to="/lunch">Lunch</Link>
-                <Link className='menu-links' to="/dinner">Breakfast</Link>
+                <Link className='menu-links' to="/dinner">Dinner</Link>
             </div>
         </div>
     );
