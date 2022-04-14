@@ -7,7 +7,7 @@ const Lunch = () => {
     const [meals, setMeals] = useMeals()
 
     return (
-        <div>
+        <div className='container'>
             <div className='row row-cols-1 row-cols-md-3 g-5'>
                 {
                     meals.slice(6, 12).map(meal => <MealCard

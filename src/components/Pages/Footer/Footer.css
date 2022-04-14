@@ -1,0 +1,16 @@
+.footer{
+    margin-top: 50px;
+    height: 160px;
+    background-color: black;
+    padding: 30px;
+}
+
+.footer-logo{
+    height: 30px;
+}
+
+.list-1{
+    font-size: 12px;
+    list-style: none;
+    color: rgb(182, 179, 179);
+}
