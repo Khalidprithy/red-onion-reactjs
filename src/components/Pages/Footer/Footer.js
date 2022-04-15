@@ -25,15 +25,13 @@ const Footer = () => {
                 </div>
             </div>
             <div className='d-flex justify-content-between text-secondary fs-6 fw-light'>
-                <p>Copyright &copy; 2022 Online food</p>
-                <div className='d-flex'>
+                <p><small className='copyright-text'>Copyright &copy; 2022 Online food</small></p>
+                <div className='d-flex privacy-policy'>
                     <p className='px-2'>Privacy Policy</p>
                     <p className='px-2'>Terms of Use</p>
                     <p className='px-2'>Pricing</p>
                 </div>
             </div>
-
-
         </footer>
     );
 };
